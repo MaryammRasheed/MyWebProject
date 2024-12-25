@@ -1,0 +1,47 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 26 Nov 2024 09:35:45 at https://pixio-nuxt.vercel.app/index-2 +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://pixio-nuxt.vercel.app/index-2 -O1 "C:\My Web Sites\Web Project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:40:09	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/iconly.svg (from https://pixio-nuxt.vercel.app/index-2)
+09:47:48	Warning: 	Retry after error 500 (Internal Server Error) at link https://pixio-nuxt.vercel.app/account-dashboard (from https://pixio-nuxt.vercel.app/index-2)
+09:48:31	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/https:/www.facebook.com/dexignzone (from https://pixio-nuxt.vercel.app/index-2)
+09:48:31	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/https:/twitter.com/dexignzones (from https://pixio-nuxt.vercel.app/index-2)
+09:48:31	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.linkedin.com/showcase/3686700/admin/
+09:48:31	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.linkedin.com/showcase/3686700/admin/ and https://pixio-nuxt.vercel.app/https:/www.linkedin.com/showcase/3686700/admin/
+09:48:31	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.linkedin.com/showcase/3686700/admin/ to /https:/www.linkedin.com/showcase/3686700/admin/
+09:48:31	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.instagram.com/dexignzone/
+09:48:31	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.instagram.com/dexignzone/ and https://pixio-nuxt.vercel.app/https:/www.instagram.com/dexignzone/
+09:48:31	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.instagram.com/dexignzone/ to /https:/www.instagram.com/dexignzone/
+09:48:31	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.dexignzone.com/
+09:48:31	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.dexignzone.com/ and https://pixio-nuxt.vercel.app/https:/www.dexignzone.com/
+09:48:31	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.dexignzone.com/ to /https:/www.dexignzone.com/
+09:48:35	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/blog-light-3-column (from https://pixio-nuxt.vercel.app/)
+09:48:35	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.facebook.com/
+09:48:35	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.facebook.com/ and https://pixio-nuxt.vercel.app/https:/www.facebook.com/
+09:48:35	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.facebook.com/ to /https:/www.facebook.com/
+09:48:35	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://twitter.com/
+09:48:35	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://twitter.com/ and https://pixio-nuxt.vercel.app/https:/twitter.com/
+09:48:35	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://twitter.com/ to /https:/twitter.com/
+09:48:35	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.instagram.com/
+09:48:35	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.instagram.com/ and https://pixio-nuxt.vercel.app/https:/www.instagram.com/
+09:48:35	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.instagram.com/ to /https:/www.instagram.com/
+09:48:35	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.linkedin.com/
+09:48:35	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.linkedin.com/ and https://pixio-nuxt.vercel.app/https:/www.linkedin.com/
+09:48:35	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.linkedin.com/ to /https:/www.linkedin.com/
+09:48:35	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/https:/www.behance.net/dexignzone (from https://pixio-nuxt.vercel.app/blog-author)
+09:48:35	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/https:/twitter.com/dexignzone (from https://pixio-nuxt.vercel.app/about-us)
+09:48:35	Warning: 	Permanent Redirect for https://pixio-nuxt.vercel.app/https://www.linkedin.com/in/dexignzone/
+09:48:35	Warning: 	Redirected link is identical because of 'URL Hack' option: https://pixio-nuxt.vercel.app/https://www.linkedin.com/in/dexignzone/ and https://pixio-nuxt.vercel.app/https:/www.linkedin.com/in/dexignzone/
+09:48:35	Warning: 	File has moved from https://pixio-nuxt.vercel.app/https://www.linkedin.com/in/dexignzone/ to /https:/www.linkedin.com/in/dexignzone/
+09:48:35	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/nav-1 (from https://pixio-nuxt.vercel.app/contact-us-2)
+09:48:35	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/nav-2 (from https://pixio-nuxt.vercel.app/contact-us-2)
+09:48:35	Error: 	"Not Found" (404) at link https://pixio-nuxt.vercel.app/nav-3 (from https://pixio-nuxt.vercel.app/contact-us-2)
+09:48:35	Warning: 	Retry after error 500 () at link https://pixio-nuxt.vercel.app/account-dashboard (from https://pixio-nuxt.vercel.app/index-2)
+09:48:36	Error: 	"" (500) after 2 retries at link https://pixio-nuxt.vercel.app/account-dashboard (from https://pixio-nuxt.vercel.app/index-2)
+
+HTTrack Website Copier/3.49-2 mirror complete in 12 minutes 51 seconds : 671 links scanned, 650 files written (249987879 bytes overall) [72233712 bytes received at 93688 bytes/sec], 227381936 bytes transferred using HTTP compression in 297 files, ratio 14%, 1.0 requests per connection
+(10 errors, 26 warnings, 0 messages)
