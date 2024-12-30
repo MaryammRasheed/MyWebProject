@@ -96,5 +96,10 @@ class AdminController extends Controller
     {
         return view('dashboard.register');
     }
-   
+    public function showRooms()
+    {
+        $rooms = Room::all();
+
+        return view('frontend.rooms.index', compact('rooms'));
+    }
 }

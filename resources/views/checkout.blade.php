@@ -218,9 +218,9 @@
                                             <label for="city">City*</label>
                                             <select class="rx-from-control form-select" aria-label="Select Method" id="city">
                                                 <option selected>City</option>
-                                                <option value="1">City 1</option>
-                                                <option value="2">City 2</option>
-                                                <option value="3">City 3</option>
+                                                <option value="1">Sahiwal</option>
+                                                <option value="2">Lahore</option>
+                                                <option value="3">Islamabad</option>
                                             </select>
                                         </div>
                                     </div>
@@ -235,9 +235,9 @@
                                             <label for="country">Country*</label>
                                             <select class="rx-from-control form-select" aria-label="Select Method" id="country">
                                                 <option selected>Country</option>
-                                                <option value="1">Country 1</option>
-                                                <option value="2">Country 2</option>
-                                                <option value="3">Country 3</option>
+                                                <option value="1">Pakistan</option>
+                                                <option value="2">America</option>
+                                                <option value="3">England</option>
                                             </select>
                                         </div>
                                     </div>
@@ -246,9 +246,9 @@
                                             <label for="regionstate">Region State*</label>
                                             <select class="rx-from-control form-select" aria-label="Select Method" id="regionstate">
                                                 <option selected>Region/State</option>
-                                                <option value="1">Region/State 1</option>
-                                                <option value="2">Region/State 2</option>
-                                                <option value="3">Region/State 3</option>
+                                                <option value="1">Punjab</option>
+                                                <option value="2">California</option>
+                                                <option value="3">New york</option>
                                             </select>
                                         </div>
                                     </div>

@@ -66,19 +66,18 @@
                                             <div class="col-lg-12 col-12 mb-24">
                                                 <div class="rx-input-box">
                                                     <label for="email">Your Email*</label>
-                                                    <input type="email" id="email" class="rx-form-control" required>
+                                                    <input type="email" name="email" id="email" class="rx-form-control" value="{{ old('email') }}" required>
                                                 </div>
                                             </div>
                                             <div class="col-lg-12 col-12 mb-24">
                                                 <div class="rx-input-box">
-                                                    <label for="password-field">Password*</label>
-                                                    <input type="password" id="password-field" class="rx-form-control" required>
-                                                    <i toggle="#password-field" class="toggle-password ri-eye-line"></i>
+                                                    <label for="password">Password*</label>
+                                                    <input type="password" name="password" id="password" class="rx-form-control" required>
                                                 </div>
                                             </div>
                                             <div class="rx-inline-block direct">
                                                 <a href="javascript:void(0)" class="direct-to">Forgot Password?</a>
-                                                <a href="{{url('/signin')}}" class="direct-to">Sign Up?</a>
+                                                <a href="{{ url('/signup') }}" class="direct-to">Sign Up?</a>
                                             </div>
                                             <div class="col-12">
                                                 <div class="rx-inner-button">
@@ -88,6 +87,16 @@
                                             </div>
                                         </div>
                                     </form>
+
+                                    @if ($errors->any())
+                                        <div class="alert alert-danger mt-3">
+                                            <ul>
+                                                @foreach ($errors->all() as $error)
+                                                    <li>{{ $error }}</li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                    @endif
                                 </div>
                             </div>
                         </div>

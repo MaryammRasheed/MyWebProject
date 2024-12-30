@@ -51,6 +51,10 @@ Route::get('/add-room', [AdminController::class, 'showAddRoom'])->name('add.room
 Route::get('/forgot-password', [AdminController::class, 'showForgotPassword'])->name('forgot.password');
 Route::get('/edit-profile', [AdminController::class, 'showEditProfile'])->name('edit.profile');
 
+Route::prefix('admin')->middleware('auth', 'is_admin')->group(function () {
+    Route::get('rooms/create', [AdminController::class, 'createRoom'])->name('admin.createRoom');  // Form for adding room
+    Route::post('rooms', [AdminController::class, 'storeRoom'])->name('admin.storeRoom');          // Store room data
+});
 
 //Customer Routes
 
@@ -58,9 +62,17 @@ Route::get('/about', [AboutController::class,'index']);
 Route::get('/all-rooms', [AllRoomsController::class,'index']);
 Route::get('/blog-details', [BlogDetailsController::class,'index']);
 Route::get('/blog', [BlogController::class,'index']);
-Route::get('/checkout', [CheckoutController::class,'index']);
-Route::get('/contact', [ContactController::class, 'showForm'])->name('contact.form');
-Route::post('/contact', [ContactController::class, 'submitMessage'])->name('contact.submit');
+// Route::get('/checkout', [CheckoutController::class,'index']);
+
+
+Route::get('/checkout', [CheckoutController::class, 'index'])->name('checkout');
+Route::post('/checkout', [CheckoutController::class, 'store'])->name('checkout.store');
+
+
+// Route::post('/contact-submit', [ContactController::class, 'submitContactForm'])->name('contact.submit');
+
+Route::get('/contact', [ContactController::class, 'index']);
+Route::post('/contact', [ContactController::class, 'store']);
 Route::get('/facilities', [FacilitiesController::class,'index']);
 Route::get('/faq', [FaqController::class,'index']);
 Route::get('/food', [FoodController::class,'index']);
@@ -69,7 +81,11 @@ Route::get('/', [IndexController::class,'index']);
 Route::get('/room-details', [RoomDetailsController::class,'index']);
 Route::get('/rooms', [RoomsController::class,'index']);
 Route::get('/services', [ServicesController::class,'index']);
-Route::get('/signin', [SignInController::class,'index']);
+
+// Route::get('/signin', [SignInController::class,'index']);
+Route::get('/signin', [SignInController::class, 'index']);
+Route::post('/signin', [SignInController::class, 'store']);
+
 Route::get('/signup', [SignUpController::class,'index']);
 Route::get('/spa', [SpaController::class,'index']);
 Route::get('/team', [TeamController::class,'index']);
